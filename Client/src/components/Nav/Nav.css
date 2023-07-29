@@ -1,0 +1,41 @@
+  /* .title{
+     width: 80%;
+    margin: 1em 1em 1em 1em;
+    color: rgba(12, 241, 4, 0.852);
+    font-size: 25px;
+    border-radius: 25px;
+    text-shadow: 4px 2px 3px rgb(50, 146, 211);
+    font-family: 'get_schwifty';
+  } */
+
+  .Container{
+    width: 100%;
+    background-color: rgba(57, 207, 27, 0.911);
+    display: flex;
+    height: 3em;
+   
+  }
+
+  .containerBoton{
+    width: 70%;
+  }
+
+  .BotonNav {
+    width: 65px;
+    border-radius: 5px;
+  background-color: rgba(6, 138, 6, 0.829);
+  color: rgb(250, 245, 245);
+  box-shadow: 0px 0px 2px 2px rgba(7, 6, 6, 0.397);
+  border: 10px;
+  margin: 10px;
+  padding: 7px;
+  }
+
+  .BotonNav:hover{
+    transition: (0,5s);
+    background-color: rgba(233, 230, 25, 0.918);
+    color: black;
+    cursor: pointer;
+  }
+
+  

@@ -1,0 +1,10 @@
+.App {
+   width: 100%;
+   height: auto;
+   display: grid;
+   gap: 10px;
+   grid-template: 60px 700px / 100%;
+   justify-self:  center;
+   background-size: cover;
+ }
+ 

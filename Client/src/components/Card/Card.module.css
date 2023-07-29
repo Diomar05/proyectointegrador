@@ -1,0 +1,89 @@
+.container{
+    width: 180px;
+    background-color: rgba(24, 211, 7, 0.397);
+    box-shadow: 0px 0px 4px 4px rgba(7, 6, 6, 0.877);
+    display: grid;
+    grid-template: 25px 100px 130px;
+    grid-template-areas:    "top"
+                            "mid"
+                            "bot"
+    ;
+    border-radius: 5px;
+    gap: 10px;               
+}
+
+.containerButton{
+    grid-area: top;
+    display: flex;
+    justify-content: space-around;
+}
+.button1{
+  margin: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.button2{
+  display: flexbox;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  background-color: rgb(34, 223, 34);
+  color: white;
+}
+
+.button2:hover{
+  background-color:rgb(243, 181, 10);
+  cursor:pointer;
+  color: black;
+  }
+
+
+.containerImagen{
+    grid-area: mid;
+    display: block;
+    justify-self: center;
+}
+
+img{
+    border-radius: 20px;
+    width: 170px;
+    height: 170px;
+    display: block;
+    justify-self: center;
+    box-shadow: 0px 0px 4px 4px rgba(7, 6, 6, 0.877);
+}
+
+.containerText{
+  grid-area: bot; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  border-radius: 20px;
+  background-color: rgba(230, 201, 40, 0.842);
+  box-shadow: 0px 0px 4px 4px rgba(7, 6, 6, 0.877);
+}
+
+.text{
+  color: rgb(54, 46, 46);
+  text-align: center;
+  font-size: 18px;
+  margin: 2% 5% 5% 5%;
+  cursor: pointer;
+}
+
+.text:hover{
+  border: rgb(50, 146, 211) solid 1px;
+  border-radius: 13px;
+  text-shadow: 2px 1px 1px rgb(50, 146, 211);
+}
+
+@font-face {
+    font-family: 'get_schwifty';
+    src: url("../../../assets/fonts/get_schwifty.ttf");
+    font-style: normal;
+    font-weight: 10px;
+  }

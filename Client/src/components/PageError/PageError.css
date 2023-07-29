@@ -1,0 +1,61 @@
+
+.error {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.error-code {
+    color: white;
+    color: #2d353c;
+    font-size: 300px;
+    line-height: 1;
+    text-shadow: 15px 15px 0 rgba(45, 53, 60, .2);
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.error-content {
+    bottom: 0;
+    padding: 1.875rem;
+    background: #2d353c;
+    background-image: url(../../../img/errorPage.png)
+}
+
+.error-mensage {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: .5px;
+    margin-bottom: .46875rem
+}
+
+.error-text2 {
+    font-size: .75rem;
+    color: rgba(255, 255, 255, .5);
+    letter-spacing: .5px;
+    margin-bottom: 4px !important
+}
+
+.btn {
+    color: #fff;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn-success {
+    color: white;
+}
+
+.btn-success:hover {
+    color: blue;
+}
+
+
+ 
